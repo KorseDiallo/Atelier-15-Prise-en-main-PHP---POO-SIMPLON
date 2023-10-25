@@ -78,10 +78,10 @@
     }
 
 
-    // $etudiant= new Etudiant("Diallo","Abdoulaye ","DA123","08/11/1999");
-    // $etudiant->Presenter();
-    // echo "------------------- <br>";
-    // $etudiant->faireCour();
-    // echo "------------------- <br>";
-    // $etudiant->faireEValuation();
+    $etudiant= new Etudiant("Diallo","Abdoulaye ","DA123","08/11/1999");
+    $etudiant->Presenter();
+    echo "------------------- <br>";
+    $etudiant->faireCour();
+    echo "------------------- <br>";
+    $etudiant->faireEValuation();
 ?>
